@@ -1,0 +1,24 @@
+.navigation__menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navigation__item {
+  display: inline-block;
+  border-right: 1px solid #bbb;
+}
+
+.navigation__item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+
+.navigation__item a:hover {
+  background-color: #111;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  
+
+.signForm {
+  margin: 10px auto;
+  padding: 20px;
+  width: 500px;
+  min-height: 400px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+}
+
+.signForm input {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  background-color: #000;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 20px;
+}
+
+.signForm__logo {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.signForm__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: pink;
+  margin-bottom: 10px;
+}
+
+.signForm__logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.signForm__name {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.signForm__name input {
+  width: 45%;
+}
+
+.signForm_validation {
+  width: 88%;
+}
+
+.signForm_validation input {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.signForm__rememberMe,
+.signForm__promotion {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.signForm__links a {
+  color: aquamarine;
+}
+
+.signForm__submit {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+.signForm__links {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}

@@ -1,0 +1,11 @@
+.home__wrapper {
+  width: 1000px;
+  min-height: 600px;
+  margin: 0 auto;
+}
+
+.home__image,
+.home__title {
+  padding: 20px;
+  text-align: center;
+}

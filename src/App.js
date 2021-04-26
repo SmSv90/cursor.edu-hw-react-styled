@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { Navigation } from './components/Navigation/Navigation';
+import { Home } from './components/Home/Home'
+import {
+  Switch,
+  Route,
+} from "react-router-dom";
+import { SignForm } from './components/SignForm/SignForm';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Navigation />
       </header>
+      <Switch>
+        <Route path="/cursor.edu-hw-react-styled/" exact component={Home} />
+        <SignForm path="/cursor.edu-hw-react-styled/sign-in" variant="signIn">Sign In</SignForm>
+        <SignForm path="/cursor.edu-hw-react-styled/sign-up" variant="signUp">Sign Up</SignForm>
+      </Switch>
     </div>
   );
 }
