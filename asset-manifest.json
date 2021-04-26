@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cursor.edu-hw-react-styled/static/css/main.8ef297a8.chunk.css",
+    "main.js": "/cursor.edu-hw-react-styled/static/js/main.ddc96a48.chunk.js",
+    "main.js.map": "/cursor.edu-hw-react-styled/static/js/main.ddc96a48.chunk.js.map",
+    "runtime-main.js": "/cursor.edu-hw-react-styled/static/js/runtime-main.33717ad4.js",
+    "runtime-main.js.map": "/cursor.edu-hw-react-styled/static/js/runtime-main.33717ad4.js.map",
+    "static/js/2.e99624b0.chunk.js": "/cursor.edu-hw-react-styled/static/js/2.e99624b0.chunk.js",
+    "static/js/2.e99624b0.chunk.js.map": "/cursor.edu-hw-react-styled/static/js/2.e99624b0.chunk.js.map",
+    "static/js/3.41bf04b3.chunk.js": "/cursor.edu-hw-react-styled/static/js/3.41bf04b3.chunk.js",
+    "static/js/3.41bf04b3.chunk.js.map": "/cursor.edu-hw-react-styled/static/js/3.41bf04b3.chunk.js.map",
+    "index.html": "/cursor.edu-hw-react-styled/index.html",
+    "static/css/main.8ef297a8.chunk.css.map": "/cursor.edu-hw-react-styled/static/css/main.8ef297a8.chunk.css.map",
+    "static/js/2.e99624b0.chunk.js.LICENSE.txt": "/cursor.edu-hw-react-styled/static/js/2.e99624b0.chunk.js.LICENSE.txt",
+    "static/media/welcome.e5e57f29.png": "/cursor.edu-hw-react-styled/static/media/welcome.e5e57f29.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33717ad4.js",
+    "static/js/2.e99624b0.chunk.js",
+    "static/css/main.8ef297a8.chunk.css",
+    "static/js/main.ddc96a48.chunk.js"
+  ]
+}
